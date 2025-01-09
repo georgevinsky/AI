@@ -1,3 +1,6 @@
+# Example Mermaid Diagram
+
+```mermaid
 sequenceDiagram
     participant Client
     participant APIGateway as "API Gateway"
