@@ -17,7 +17,7 @@ sequenceDiagram
     MainLambda-->>APIGateway: 9. Send response
     APIGateway-->>Client: 10. Return final response
 
-%% Styling each participant directly with 'style' statements
+%% Style each participant
 style Client fill:#E6F7FF,stroke:#006699,stroke-width:1px
 style APIGateway fill:#FFFBE6,stroke:#999900,stroke-width:1px
 style AuthorizerLambda fill:#E6FFE6,stroke:#339933,stroke-width:1px
