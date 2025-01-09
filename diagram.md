@@ -1,4 +1,3 @@
-```mermaid
 sequenceDiagram
     participant Client
     participant APIGateway as "API Gateway"
@@ -17,3 +16,11 @@ sequenceDiagram
     Axway-->>MainLambda: 8. Return results/status
     MainLambda-->>APIGateway: 9. Send response
     APIGateway-->>Client: 10. Return final response
+
+%% Styling each participant directly with 'style' statements
+style Client fill:#E6F7FF,stroke:#006699,stroke-width:1px
+style APIGateway fill:#FFFBE6,stroke:#999900,stroke-width:1px
+style AuthorizerLambda fill:#E6FFE6,stroke:#339933,stroke-width:1px
+style MainLambda fill:#ECE6FF,stroke:#663399,stroke-width:1px
+style Axway fill:#FFECEC,stroke:#CC0033,stroke-width:1px
+style Salesforce fill:#FFF0E6,stroke:#CC6600,stroke-width:1px
